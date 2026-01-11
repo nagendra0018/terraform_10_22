@@ -1,0 +1,9 @@
+# .gitignore - Prevent sensitive files from being committed
+*.pem
+*.pub
+private-key.*
+public-key.*
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
